@@ -2555,3 +2555,152 @@ ol {
 	cursor: pointer;
 }
 
+
+
+
+
+
+/* ------------------------- Custom ---------------------- */
+
+.search_input{
+	color: white;
+    background-image: initial;
+    background-color: rgba(24, 26, 27, 0.97);
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: 42px;
+    background: transparent;
+
+    font-size: 19px;
+    padding-left: 13px;
+    position: relative;
+    letter-spacing: 0.65px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    /* background: rgb(255 255 255 / 97%); */
+    -webkit-transition: .3s background ease;
+    -o-transition: .3s background ease;
+    transition: .3s background ease;
+    -webkit-transform: skew(-7deg);
+    -ms-transform: skew(-7deg);
+    transform: skew(-7deg);
+	margin-bottom: 30px;
+}
+
+
+
+
+.single-item {
+	background-color: rgb(11, 5, 49);
+	border-color: rgb(92, 0, 123);
+}
+
+.single-item {
+	background-color: #0E063D;
+	padding: 20px;
+	border: 1px solid #EDB8FF;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.mid-area>* {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 800;
+}
+
+
+.single-item .desc {
+	font-size: 0.8rem;
+	font-weight: 400;
+	margin-top: 0.5rem;
+}
+
+.single-item .single-box {
+	margin-top: 1rem;
+}
+
+.single-item .single-box .box-item {
+	border-color: rgb(69, 50, 167);
+}
+
+.single-item .single-box .box-item {
+	border: 1px solid #e53637;
+	margin-right: 19px;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 15px;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 0.5rem 1rem;
+}
+
+.single-item .single-box .box-item .head {
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-bottom: 0.5rem;
+}
+
+.single-item .single-box .box-item .sub {
+	color: rgb(29, 255, 231);
+}
+
+.single-item .single-box .box-item .sub {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	color: #00FADF;
+}
+
+.game-buy a:hover {
+	border: 1px solid #f8f8f8;
+	background: #f8f8f8;
+	border-color: #f8f8f8 !important;
+	color: #000 !important;
+	transition: all 0.8s ease-in-out 0s;
+}
+
+.game-buy a.btn {
+	padding: 6px 16px;
+	border: 1px solid #f8f8f8;
+	font-size: 16px;
+	color: #f8f8f8;
+	text-transform: capitalize;
+	line-height: 25px;
+	font-family: 'Rajdhani', sans-serif;
+	display: inline-block;
+	font-weight: 600;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 0;
+}
+
+.prize-area {
+	height: 100%;
+	display: flex;
+	width: 100%;
+	align-items: end;
+}
+
+.contain-area {
+	width: 100%;
+}
+
+
+
+
+
+/* -----------------------------  Sidebar ----------------------------- */
+
+.sidebar_container{
+	position: absolute;
+    z-index: 111111;
+    width: 340px;
+    right: -340px;
+}

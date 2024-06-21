@@ -2704,3 +2704,280 @@ ol {
     width: 340px;
     right: -340px;
 }
+
+
+.games-single-item {
+	background: #0f0f0f none repeat scroll 0;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.games-thumb {
+	position: relative;
+}
+
+.games-thumb-image {
+	text-align: center;
+}
+
+.games-thumb-image {
+	position: relative;
+	overflow: hidden;
+}
+
+
+.games-thumb-image img {
+	width: 100%;
+}
+
+.games-desc.games-desc1 {
+	background: #1b1b1b;
+	min-height: 150px;
+	height: 100%;
+}
+
+.games-desc {
+	padding: 20px;
+	min-height: 153px;
+}
+
+.games-desc {
+	padding: 20px;
+}
+
+
+.games-desc h3 {
+	margin-bottom: 5px;
+	color: #f8f8f8;
+	font-size: 20px;
+	/* text-transform: uppercase; */
+	font-weight: 600;
+}
+
+
+.games-desc h3 a {
+	color: #f8f8f8;
+	color: #ffffff;
+	font-weight: 700;
+	line-height: 21px;
+	font-size: 18px;
+}
+
+.game-action {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	/* width: 100%; */
+	margin-top: 10px;
+}
+
+.game-action {
+	position: absolute;
+	width: 89%;
+	bottom: 0;
+	float: left;
+	margin-right: -14px;
+	left: 14px;
+	right: 0;
+}
+
+.game-buy a.btn {
+	padding: 6px 16px;
+	border: 1px solid #f8f8f8;
+	font-size: 16px;
+	color: #f8f8f8;
+	text-transform: capitalize;
+	line-height: 25px;
+	font-family: 'Rajdhani', sans-serif;
+	display: inline-block;
+	font-weight: 600;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+
+	border-radius: 0;
+}
+
+.game-buy a:hover {
+	border: 1px solid #f8f8f8;
+	background: #f8f8f8;
+	border-color: #f8f8f8 !important;
+	color: #000 !important;
+	transition: all 0.8s ease-in-out 0s;
+}
+
+
+
+
+
+
+
+
+
+.card-hover,
+.card-hover .card-hover-overlay {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.card-hover {
+	background-color: #141a32;
+	border-radius: 5px;
+	display: none;
+	overflow: hidden;
+	z-index: 2;
+	height: 450px;
+	transform: scale(1.1);
+	transition: all 0.4s ease 0s;
+}
+
+
+.card-hover .card-hover-backdrop {
+	background-position: 50%;
+	background-size: cover;
+	height: 160px;
+	line-height: 0;
+	position: relative;
+}
+
+
+.card-hover-info {
+	display: flex;
+	flex-direction: column;
+	height: 280px;
+	justify-content: space-between;
+}
+
+.card-hover .card-hover-overlay {
+	background: linear-gradient(180deg, rgba(8, 15, 40, 0) 0, #080f28 120%);
+}
+
+.card-hover,
+.card-hover .card-hover-overlay {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.card-hover-backdrop-info {
+	bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+	position: absolute;
+	width: 100%;
+}
+
+.card-hover-backdrop-info .card-hover-rating {
+	color: #edb709;
+}
+
+.card-hover-backdrop-info .card-hover-rating,
+.card-hover-backdrop-info .card-hover-year {
+	font-size: 13px;
+	opacity: .7;
+}
+
+.card-hover-info .card-hover-info-overview {
+	color: #f9f9f9;
+	font-size: 10px;
+	line-height: 1.2;
+	opacity: .7;
+	padding: 0 10px;
+	text-align: justify;
+}
+
+.card-hover-info .card-hover-info-overview>p {
+	color: white;
+}
+
+.card-hover-info-audios {
+	border-top: 1px solid hsla(0, 0%, 100%, .05);
+	font-size: 10px;
+	justify-content: space-between;
+	opacity: .6;
+}
+
+.card-hover-info-audios,
+.card-hover-info-genre {
+	color: white;
+	display: flex;
+	font-size: 11px;
+	justify-content: space-between;
+	line-height: 1;
+	padding: 10px;
+	font-weight: bolder;
+}
+
+
+.card-hover-info .card-hover-info-meta {
+	background-color: #0d132b;
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 10px;
+	padding: 10px;
+}
+
+.card-hover-info-meta>div {
+	background-color: transparent;
+	border-radius: 3px;
+	color: #f9f9f9;
+	line-height: 1;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+
+.card-hover .game-buy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.card-hover .game-buy a {
+	width: 95%;
+	margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 580px) {
+	.card-hover {
+		width: 85%;
+		margin: auto;
+	}
+}
+
+.view_hero .hero__items {
+	height: 500px;
+}
+
+@media screen and (max-width: 1080px) {
+	.view_hero .hero__items {
+		height: 400px;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+	.view_hero .hero__items {
+		height: 300px;
+	}
+
+}

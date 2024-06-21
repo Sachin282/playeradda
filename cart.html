@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anime Template">
+    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anime | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- <link rel="stylesheet" href="https://www.gamezstore.in/assets/css/style.css"> -->
+
+    <style>
+        /*================================================
+25 - CART PAGE CSS
+==================================================*/
+
+        .cart-table-left h3,
+        .order-summury-box h3 {
+            margin-bottom: 5px;
+            color: #f8f8f8;
+            font-size: 28px;
+            text-transform: capitalize;
+            font-weight: 600;
+            display: inline-block;
+            position: relative;
+        }
+
+        .cart-table-left thead {
+            border: medium none;
+        }
+
+        .cart-table-left thead th {
+            border: medium none;
+            color: #f8f8f8;
+            text-transform: capitalize;
+            font-weight: 800;
+            font-size: 15px;
+            border-top: 0px !important;
+            background: #1a1c44;
+        }
+
+
+        .fag-cart-preview {
+            width: 115px;
+            height: 100px;
+            text-align: center;
+        }
+
+        .fag-cart-preview img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px
+        }
+
+        .table th,
+        .table td {
+            vertical-align: middle;
+            border-top: 0px;
+            border-top: 1px solid #404374;
+        }
+
+        .cart-table-left table td p,
+        .cart-table-left table td a {
+            color: #f8f8f8;
+            text-transform: capitalize;
+            font-weight: bold;
+            font-size: 14px;
+            margin: 0
+        }
+
+        .fag-cart-quantity>input {
+            border: 2px solid #ddd;
+            padding: 5px;
+            width: 70px;
+            text-align: center;
+            border-radius: 25px;
+        }
+
+        .fag-cart-close {
+            text-align: center;
+        }
+
+        .fag-cart-total {
+            font-weight: 500;
+        }
+
+        .fag-cart-close a {
+            color: #f8f8f8;
+            width: 35px;
+            display: inline-block;
+            height: 35px;
+            line-height: 35px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .cart-clear a {
+            display: inline-block;
+            font-weight: 600;
+            text-transform: capitalize;
+            color: #f8f8f8;
+            margin-right: 15px;
+        }
+
+        .cart-clear {
+            margin-top: 20px;
+            text-align: right
+        }
+
+        .cart-clear a:last-child {
+            margin-right: 1px;
+        }
+
+        .cart-clear a:hover {
+            color: #f8f8f8
+        }
+
+        .fag-cart-close a:hover {
+            background: #64595985 none repeat scroll 0 0;
+            color: #f8f8f8;
+            border: 1px solid #f8f8f8
+        }
+
+
+
+        .order-summury-box table {
+            width: 100%;
+        }
+
+        .order-summury-box table tr {
+            border-bottom: 1px solid white;
+        }
+
+        .order-summury-box table tr:last-child {
+            border-bottom: 0px solid #131324;
+        }
+
+        .order-summury-box table td {
+            padding: 10px 0;
+            color: #f8f8f8;
+            font-weight: bold;
+            font-size: 14px;
+            padding-top: 1rem;
+        }
+
+        .checkout-action {
+            text-align: right;
+            margin-top: 30px
+        }
+
+        .checkout-action a.fag-btn {
+            color: #f8f8f8;
+            margin: 0;
+            background: transparent
+        }
+
+        #sidebar {
+            min-width: 250px;
+            max-width: 250px;
+            background: #000;
+            color: #fff;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+
+        .cart_box,
+        .summury-inn {
+            background: transparent none repeat scroll 0 0;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .fag-cart-preview a {
+            display: block;
+            position: relative;
+        }
+
+        .fag-cart-preview a:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #8f8f8f;
+            opacity: 0.1;
+            border-radius: 15px;
+        }
+
+        .fag-cart-quantity .skin-2 .num-in {
+            background: #0f0f0f none repeat scroll 0 0;
+        }
+
+        .fag-cart-quantity .skin-2 .num-in input {
+            background: #0f0f0f none repeat scroll 0 0;
+        }
+
+        .cart_box .table {
+            margin: 0
+        }
+
+
+        .num-block {
+            float: left;
+            /*width: 100%;*/
+            padding: 0;
+            margin: 0;
+        }
+
+        .fag-cart-quantity .skin-2 .num-in {
+            background-image: none;
+            background-color: rgb(11, 12, 13);
+        }
+
+        .fag-cart-quantity .skin-2 .num-in {
+            background: #0f0f0f none repeat scroll 0 0;
+        }
+
+        .skin-2 .num-in {
+            background-image: none;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .skin-2 .num-in {
+            background: #000000 none repeat scroll 0 0;
+            border-radius: 25px;
+            height: 40px;
+            width: 158px;
+            float: left;
+        }
+
+
+
+        .skin-2 .num-in span {
+            width: 40%;
+            display: block;
+            height: 40px;
+            float: left;
+            position: relative;
+        }
+
+
+
+        .fag-cart-quantity .skin-2 .num-in input {
+            background-image: none;
+            background-color: rgb(11, 12, 13);
+        }
+
+        .fag-cart-quantity .skin-2 .num-in input {
+            background: #0f0f0f none repeat scroll 0 0;
+        }
+
+        .skin-2 .num-in input {
+            border-width: initial;
+            border-style: none;
+            border-color: initial;
+            background-image: none;
+            background-color: rgb(0, 0, 0);
+            color: rgb(228, 225, 222);
+        }
+
+        .skin-2 .num-in input {
+            float: left;
+            width: 20%;
+            height: 40px;
+            border: none;
+            text-align: center;
+            background: #000000 none repeat scroll 0 0;
+            color: #f8f8f8;
+        }
+
+
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Homepage</a></li>
+                                <li><a href="./categories.html">Categories <span class="arrow_carrot-down"></span></a>
+                                    <ul class="dropdown">
+                                        <li><a href="./categories.html">Categories</a></li>
+                                        <li><a href="./anime-details.html">Anime Details</a></li>
+                                        <li><a href="./anime-watching.html">Anime Watching</a></li>
+                                        <li><a href="./blog-details.html">Blog Details</a></li>
+                                        <li><a href="./signup.html">Sign Up</a></li>
+                                        <li><a href="./login.html">Login</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html">Our Blog</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__right">
+                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <a href="./login.html"><span class="icon_profile"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+
+    <div style="
+    margin-top: 8rem;
+"></div>
+
+    <section class="fag-cart-page-area section_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mt-5">
+                    <div class="cart-table-left">
+                        <h3>Shopping Cart</h3>
+                        <div class="table-responsive cart_box">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Preview</th>
+                                        <th>Product</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="shop-cart-item">
+                                        <td class="fag-cart-preview">
+                                            <a href="#">
+                                                <img src="https://pixner.net/begam/images/game-img-1.png">
+                                            </a>
+                                        </td>
+                                        <td class="fag-cart-product">
+                                            <a href="#">
+                                            </a>
+                                            <p><a href="#"></a><a target="_blank"
+                                                    href="/pre-own/XBOX-One/150/NEED-FOR-SPEED-HEAT">NEED FOR SPEED
+                                                    HEAT</a></p>
+
+                                        </td>
+                                        <td class="fag-cart-price">
+                                            <p>Rs.1399</p>
+                                        </td>
+                                        <td class="fag-cart-quantity">
+                                            <div class="num-block skin-2">
+                                                <div class="num-in">
+                                                    <span class="minus dis" id="m-10201902044411479_881"></span>
+                                                    <input type="text" class="in-num qty" value="1" min="1" step="1"
+                                                        readonly="" id="qty_10201902044411479_881">
+                                                    <span class="plus" id="p-10201902044411479_881"></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="fag-cart-total">
+                                            <p id="ctP_10201902044411479_881">Rs.1399</p>
+                                        </td>
+                                        <td class="fag-cart-close">
+                                            <a class="cartremove" href="javascript:void();"
+                                                id="remove_10201902044411479_881"><i class="fa fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="shop-cart-item">
+                                        <td class="fag-cart-preview">
+                                            <a href="#">
+                                                <img src="file:///media/sameer/Extra%20Storage/Work/Sameer/sachin/playeradda-template/anime/img/trending/trend-1.jpg">
+                                            </a>
+                                        </td>
+                                        <td class="fag-cart-product">
+                                            <a href="#">
+                                            </a>
+                                            <p><a href="#"></a><a target="_blank"
+                                                    href="/pre-own/XBOX-One/150/NEED-FOR-SPEED-HEAT">PUBG MOBILE
+                                                </a></p>
+
+                                        </td>
+                                        <td class="fag-cart-price">
+                                            <p>Rs.499</p>
+                                        </td>
+                                        <td class="fag-cart-quantity">
+                                            <div class="num-block skin-2">
+                                                <div class="num-in">
+                                                    <span class="minus dis" id="m-10201902044411479_881"></span>
+                                                    <input type="text" class="in-num qty" value="2" min="1" step="1"
+                                                        readonly="" id="qty_10201902044411479_881">
+                                                    <span class="plus" id="p-10201902044411479_881"></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="fag-cart-total">
+                                            <p id="ctP_10201902044411479_881">Rs.998</p>
+                                        </td>
+                                        <td class="fag-cart-close">
+                                            <a class="cartremove" href="javascript:void();"
+                                                id="remove_10201902044411479_881"><i class="fa fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="shop-cart-item">
+                                        <td class="fag-cart-preview">
+                                            <a href="#">
+                                                <img src="https://pixner.net/begam/images/game-img-1.png">
+                                            </a>
+                                        </td>
+                                        <td class="fag-cart-product">
+                                            <a href="#">
+                                            </a>
+                                            <p><a href="#"></a><a target="_blank"
+                                                    href="/pre-own/XBOX-One/150/NEED-FOR-SPEED-HEAT">NEED FOR SPEED
+                                                    HEAT</a></p>
+
+                                        </td>
+                                        <td class="fag-cart-price">
+                                            <p>Rs.1399</p>
+                                        </td>
+                                        <td class="fag-cart-quantity">
+                                            <div class="num-block skin-2">
+                                                <div class="num-in">
+                                                    <span class="minus dis" id="m-10201902044411479_881"></span>
+                                                    <input type="text" class="in-num qty" value="1" min="1" step="1"
+                                                        readonly="" id="qty_10201902044411479_881">
+                                                    <span class="plus" id="p-10201902044411479_881"></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="fag-cart-total">
+                                            <p id="ctP_10201902044411479_881">Rs.1399</p>
+                                        </td>
+                                        <td class="fag-cart-close">
+                                            <a class="cartremove" href="javascript:void();"
+                                                id="remove_10201902044411479_881"><i class="fa fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                              
+                                </tbody>
+                            </table>
+                        </div>
+           
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="order-summury-box">
+                        <h3>Order Summury</h3>
+                        <div class="summury-inn">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Cart Subtotal</td>
+                                        <td class="fSTotalAmt">Rs.1399</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Shipping and Handling</td>
+                                        <td class="shippingTotal">Rs.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Order Total</td>
+                                        <td class="fTotalAmt">Rs.1399</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="checkout-action">
+                       
+<div class="game-buy">
+    <a href="pre-own/XBOX-One/245/TITANFALL-2" class="fag-btn-outline btn">Proceed to checkout</a>
+</div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <div style="
+     margin-bottom: 10rem;
+ "></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="page-up">
+            <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer__nav">
+                        <ul>
+                            <li class="active"><a href="./index.html">Homepage</a></li>
+                            <li><a href="./categories.html">Categories</a></li>
+                            <li><a href="./blog.html">Our Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+                        is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                            target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anime Template">
+    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anime | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- <link rel="stylesheet" href="https://www.gamezstore.in/assets/css/style.css"> -->
+
+    <style>
+        /*================================================
+25 - CART PAGE CSS
+==================================================*/
+
+        .cart-table-left h3,
+        .order-summury-box h3 {
+            margin-bottom: 5px;
+            color: #f8f8f8;
+            font-size: 28px;
+            text-transform: capitalize;
+            font-weight: 600;
+            display: inline-block;
+            position: relative;
+        }
+
+        .cart-table-left thead {
+            border: medium none;
+        }
+
+        .cart-table-left thead th {
+            border: medium none;
+            color: #f8f8f8;
+            text-transform: capitalize;
+            font-weight: 800;
+            font-size: 15px;
+            border-top: 0px !important;
+            background: #1a1c44;
+        }
+
+
+        .fag-cart-preview {
+            width: 115px;
+            height: 100px;
+            text-align: center;
+        }
+
+        .fag-cart-preview img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px
+        }
+
+        .table th,
+        .table td {
+            vertical-align: middle;
+            border-top: 0px;
+            border-top: 1px solid #404374;
+        }
+
+        .cart-table-left table td p,
+        .cart-table-left table td a {
+            color: #f8f8f8;
+            text-transform: capitalize;
+            font-weight: bold;
+            font-size: 14px;
+            margin: 0
+        }
+
+        .fag-cart-quantity>input {
+            border: 2px solid #ddd;
+            padding: 5px;
+            width: 70px;
+            text-align: center;
+            border-radius: 25px;
+        }
+
+        .fag-cart-close {
+            text-align: center;
+        }
+
+        .fag-cart-total {
+            font-weight: 500;
+        }
+
+        .fag-cart-close a {
+            color: #f8f8f8;
+            width: 35px;
+            display: inline-block;
+            height: 35px;
+            line-height: 35px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .cart-clear a {
+            display: inline-block;
+            font-weight: 600;
+            text-transform: capitalize;
+            color: #f8f8f8;
+            margin-right: 15px;
+        }
+
+        .cart-clear {
+            margin-top: 20px;
+            text-align: right
+        }
+
+        .cart-clear a:last-child {
+            margin-right: 1px;
+        }
+
+        .cart-clear a:hover {
+            color: #f8f8f8
+        }
+
+        .fag-cart-close a:hover {
+            background: #64595985 none repeat scroll 0 0;
+            color: #f8f8f8;
+            border: 1px solid #f8f8f8
+        }
+
+
+
+        .order-summury-box table {
+            width: 100%;
+        }
+
+        .order-summury-box table tr {
+            border-bottom: 1px solid white;
+        }
+
+        .order-summury-box table tr:last-child {
+            border-bottom: 0px solid #131324;
+        }
+
+        .order-summury-box table td {
+            padding: 10px 0;
+            color: #f8f8f8;
+            font-weight: bold;
+            font-size: 14px;
+            padding-top: 1rem;
+        }
+
+        .checkout-action {
+            text-align: right;
+            margin-top: 30px
+        }
+
+        .checkout-action a.fag-btn {
+            color: #f8f8f8;
+            margin: 0;
+            background: transparent
+        }
+
+        #sidebar {
+            min-width: 250px;
+            max-width: 250px;
+            background: #000;
+            color: #fff;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+
+        .cart_box,
+        .summury-inn {
+            background: transparent none repeat scroll 0 0;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .fag-cart-preview a {
+            display: block;
+            position: relative;
+        }
+
+        .fag-cart-preview a:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #8f8f8f;
+            opacity: 0.1;
+            border-radius: 15px;
+        }
+
+        .fag-cart-quantity .skin-2 .num-in {
+            background: #0f0f0f none repeat scroll 0 0;
+        }
+
+        .fag-cart-quantity .skin-2 .num-in input {
+            background: #0f0f0f none repeat scroll 0 0;
+        }
+
+        .cart_box .table {
+            margin: 0
+        }
+
+
+        .num-block {
+            float: left;
+            /*width: 100%;*/
+            padding: 0;
+            margin: 0;
+        }
+
+        .fag-cart-quantity .skin-2 .num-in {
+            background-image: none;
+            background-color: rgb(11, 12, 13);
+        }
+
+        .fag-cart-quantity .skin-2 .num-in {
+            background: #0f0f0f none repeat scroll 0 0;
+        }
+
+        .skin-2 .num-in {
+            background-image: none;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .skin-2 .num-in {
+            background: #000000 none repeat scroll 0 0;
+            border-radius: 25px;
+            height: 40px;
+            width: 158px;
+            float: left;
+        }
+
+
+
+        .skin-2 .num-in span {
+            width: 40%;
+            display: block;
+            height: 40px;
+            float: left;
+            position: relative;
+        }
+
+
+
+        .fag-cart-quantity .skin-2 .num-in input {
+            background-image: none;
+            background-color: rgb(11, 12, 13);
+        }
+
+        .fag-cart-quantity .skin-2 .num-in input {
+            background: #0f0f0f none repeat scroll 0 0;
+        }
+
+        .skin-2 .num-in input {
+            border-width: initial;
+            border-style: none;
+            border-color: initial;
+            background-image: none;
+            background-color: rgb(0, 0, 0);
+            color: rgb(228, 225, 222);
+        }
+
+        .skin-2 .num-in input {
+            float: left;
+            width: 20%;
+            height: 40px;
+            border: none;
+            text-align: center;
+            background: #000000 none repeat scroll 0 0;
+            color: #f8f8f8;
+        }
+    </style>
+
+
+    <style>
+        .order-summary-block {
+            background-color: rgb(21, 23, 24);
+            padding: 1.5rem;
+        }
+
+        .order-summary-block .block {
+            border-bottom-color: rgb(125, 116, 103);
+        }
+
+        .order-summary-block .block {
+            border-bottom: 1px solid #2C2D2F;
+        }
+
+        .order-summary-block .block h6,
+        .order-summary-block .block h5 {
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .order-summary-block .block h6.medium-gray {
+            font-size: 13px;
+        }
+
+        .color-primary {
+            color: rgb(109, 229, 79) !important;
+        }
+
+        .order-summary-block .block-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+        .unstyled {
+            list-style-image: initial;
+        }
+
+        .order-summary-block .ordered-products li {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .order-summary-block .ordered-products li .p-detail {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .order-summary-block .ordered-products li .p-detail img {
+            height: 60px;
+            width: 60px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .medium-gray {
+            color: rgb(184, 178, 168) !important;
+        }
+
+        .mb-16 {
+            margin-bottom: 16px;
+        }
+
+        .order-summary-block .title-container {
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+        }
+
+        .order-summary-block .title-container * {
+            font-size: 18px !important;
+        }
+
+        .order-summary-block .bottom-container {
+            margin-top: 1.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+
+
+        .order-summary-block .bottom-container h5 {
+            font-size: 16px;
+        }
+
+        .total-container h4 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .form-control {
+            color: rgb(229, 227, 223);
+            border-width: initial;
+            border-style: none;
+            border-color: initial;
+            background-image: initial;
+            background-color: rgb(21, 23, 24);
+        }
+
+        .form-control {
+            padding: 20px 16px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: 0.32px;
+            position: relative;
+            color: #FAFAFA;
+            border: none;
+            background: #1B1C1E;
+            border-radius: 0px;
+        }
+
+
+
+
+
+
+        input {
+            color: rgb(187, 181, 172);
+            background-image: initial;
+            background-color: rgb(24, 26, 27);
+            border-width: initial;
+            border-style: none;
+            border-color: initial;
+
+            height: 50px;
+            width: 100%;
+            font-size: 15px;
+            color: #b7b7b7;
+            background: #ffffff;
+            border: none;
+            padding-left: 15px;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Homepage</a></li>
+                                <li><a href="./categories.html">Categories <span class="arrow_carrot-down"></span></a>
+                                    <ul class="dropdown">
+                                        <li><a href="./categories.html">Categories</a></li>
+                                        <li><a href="./anime-details.html">Anime Details</a></li>
+                                        <li><a href="./anime-watching.html">Anime Watching</a></li>
+                                        <li><a href="./blog-details.html">Blog Details</a></li>
+                                        <li><a href="./signup.html">Sign Up</a></li>
+                                        <li><a href="./login.html">Login</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html">Our Blog</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__right">
+                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <a href="./login.html"><span class="icon_profile"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+    <div style="
+    padding-top: 8rem;
+"></div>
+
+    <div class="container" style="
+    margin-bottom: 8rem;
+">
+        <div class="row">
+            <div class="col-lg-8 mb-64 mb-lg-0">
+                <form action="checkout.html">
+                    <h4 class="mb-32" style="
+                    font-weight: bold;
+                    margin-bottom: 1rem;
+                ">Customer Info</h4>
+
+
+                    <div class="row">
+
+
+                        <div class="col-sm-6 mb-2">
+                            <div class="input__item">
+                                <input type="text" placeholder="First Name">
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-6 mb-2">
+                            <div class="input__item">
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-2">
+                            <div class="input__item">
+                                <input type="text" name="email" placeholder=" Your Email">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-2">
+                            <div class="input__item">
+                                <input type="text" name="text" placeholder="Phone Number">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h4 class="mb-32">
+                    </h4>
+                    <h4 class="mb-32" style="
+                                font-weight: bold;
+                                margin-bottom: 1rem;
+                                margin-top: 2rem;
+                            ">Shipping Info</h4>
+
+                    <div class="row">
+                        <div class="col-sm-6 mb-2">
+                            <div class="mb-24">
+                                <input type="text" class="form-control" id="country" name="country" required=""
+                                    placeholder="Country">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-2">
+                            <div class="mb-24">
+                                <input type="text" class="form-control" id="state" name="state" required=""
+                                    placeholder="State">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-2">
+                            <div class="mb-24">
+                                <input type="text" class="form-control" id="city" name="city" required=""
+                                    placeholder="City/Town">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-2">
+                            <div class="mb-24">
+                                <input type="text" class="form-control" id="postal-code" name="postal-code" required=""
+                                    placeholder="Postal Code">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 mb-2">
+                            <div class="mb-16">
+                                <input type="text" class="form-control" id="address" name="address" required=""
+                                    placeholder="Shipping Address">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="order-summary-block">
+                    <div class="block mb-32">
+                        <h3 class="color-primary mb-32 " style="font-weight: bold;margin-bottom: 1rem;">Order Summary
+                        </h3>
+                    </div>
+                    <div class="block mb-32">
+                        <div class="block-row mb-32 title-container">
+                            <h5>3 ITEMS</h5>
+                            <h5 class="light-gray">$120.00</h5>
+                        </div>
+                        <ul class="unstyled ordered-products mb-32">
+                            <li class="mb-16">
+                                <div class="p-detail">
+                                    <img src="https://pixner.net/begam/images/game-img-1.png" alt="">
+                                    <div>
+                                        <h6>NEED FOR SPEED HEAT
+                                        </h6>
+                                        <h6 class="medium-gray">Quantity: 1</h6>
+                                    </div>
+                                </div>
+                                <h5 class="light-gray">$20.00</h5>
+                            </li>
+                            <li class="mb-16">
+                                <div class="p-detail">
+                                    <img src="/img/trending/trend-1.jpg" alt="">
+                                    <div>
+                                        <h6>PUBG MOBILE</h6>
+                                        <h6 class="medium-gray">Quantity: 3</h6>
+                                    </div>
+                                </div>
+                                <h5 class="light-gray">$60.00</h5>
+                            </li>
+                            <li class="mb-16">
+                                <div class="p-detail">
+                                    <img src="https://pixner.net/begam/images/game-img-1.png" alt="">
+                                    <div>
+                                        <h6>Gaming Remote</h6>
+                                        <h6 class="medium-gray">Quantity: 2</h6>
+                                    </div>
+                                </div>
+                                <h5 class="light-gray">$40.00</h5>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="block mb-32 bottom-container">
+                        <div class="block-row mb-24">
+                            <h5>SUBTOTAL</h5>
+                            <h5 class="light-gray">$120.00</h5>
+                        </div>
+                        <div class="block-row mb-32" style="margin-top: 1rem; margin-bottom: 1rem;">
+                            <h5>PROMO CODE</h5>
+                            <h5 class="light-gray">$5.00</h5>
+                        </div>
+                    </div>
+                    <div class="block-row mb-32 total-container" style="margin-top: 1rem;">
+                        <h4>TOTAL COST</h4>
+                        <h4 class="color-primary">$115.00</h4>
+                    </div>
+
+                    <div class="game-buy" style="margin-top: 1rem;">
+                        <a href="pre-own/XBOX-One/245/TITANFALL-2" class="fag-btn-outline btn">Proceed to
+                            checkout</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="page-up">
+            <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer__nav">
+                        <ul>
+                            <li class="active"><a href="./index.html">Homepage</a></li>
+                            <li><a href="./categories.html">Categories</a></li>
+                            <li><a href="./blog.html">Our Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+                        is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                            target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>

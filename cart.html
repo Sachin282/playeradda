@@ -227,7 +227,11 @@
 
         .fag-cart-quantity .skin-2 .num-in {
             background-image: none;
-            background-color: rgb(11, 12, 13);
+            background-color: rgb(21 22 54);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
         }
 
         .fag-cart-quantity .skin-2 .num-in {
@@ -261,7 +265,7 @@
 
         .fag-cart-quantity .skin-2 .num-in input {
             background-image: none;
-            background-color: rgb(11, 12, 13);
+            background-color: rgb(21, 22, 54);
         }
 
         .fag-cart-quantity .skin-2 .num-in input {
@@ -288,12 +292,19 @@
         }
 
 
+        .summury-inn {
+            background-color: #212235;
+            border-radius: 20px;
+        }
 
+        i {
+            cursor: pointer;
+        }
 
-
-
-
-
+        .fag-cart-quantity .skin-2 .num-in,
+        .fag-cart-quantity .skin-2 .num-in input{
+            background-color: rgb(21 22 54);
+        }
     </style>
 </head>
 
@@ -388,14 +399,18 @@
                                         </td>
                                         <td class="fag-cart-price">
                                             <p>Rs.1399</p>
+
                                         </td>
                                         <td class="fag-cart-quantity">
                                             <div class="num-block skin-2">
                                                 <div class="num-in">
-                                                    <span class="minus dis" id="m-10201902044411479_881"></span>
+                                                    <!-- <span class="minus dis" id="m-10201902044411479_881"></span> -->
+                                                    <i class="icon_minus_alt pointer"></i>
+
                                                     <input type="text" class="in-num qty" value="1" min="1" step="1"
                                                         readonly="" id="qty_10201902044411479_881">
-                                                    <span class="plus" id="p-10201902044411479_881"></span>
+                                                    <i class="icon_plus_alt"></i>
+                                                    <!-- <span class="plus" id="p-10201902044411479_881"></span> -->
                                                 </div>
                                             </div>
                                         </td>
@@ -427,10 +442,13 @@
                                         <td class="fag-cart-quantity">
                                             <div class="num-block skin-2">
                                                 <div class="num-in">
-                                                    <span class="minus dis" id="m-10201902044411479_881"></span>
-                                                    <input type="text" class="in-num qty" value="2" min="1" step="1"
+                                                    <!-- <span class="minus dis" id="m-10201902044411479_881"></span> -->
+                                                    <i class="icon_minus_alt pointer"></i>
+
+                                                    <input type="text" class="in-num qty" value="1" min="1" step="1"
                                                         readonly="" id="qty_10201902044411479_881">
-                                                    <span class="plus" id="p-10201902044411479_881"></span>
+                                                    <i class="icon_plus_alt"></i>
+                                                    <!-- <span class="plus" id="p-10201902044411479_881"></span> -->
                                                 </div>
                                             </div>
                                         </td>
@@ -462,10 +480,13 @@
                                         <td class="fag-cart-quantity">
                                             <div class="num-block skin-2">
                                                 <div class="num-in">
-                                                    <span class="minus dis" id="m-10201902044411479_881"></span>
+                                                    <!-- <span class="minus dis" id="m-10201902044411479_881"></span> -->
+                                                    <i class="icon_minus_alt pointer"></i>
+
                                                     <input type="text" class="in-num qty" value="1" min="1" step="1"
                                                         readonly="" id="qty_10201902044411479_881">
-                                                    <span class="plus" id="p-10201902044411479_881"></span>
+                                                    <i class="icon_plus_alt"></i>
+                                                    <!-- <span class="plus" id="p-10201902044411479_881"></span> -->
                                                 </div>
                                             </div>
                                         </td>
@@ -477,11 +498,11 @@
                                                 id="remove_10201902044411479_881"><i class="fa fa-times"></i></a>
                                         </td>
                                     </tr>
-                              
+
                                 </tbody>
                             </table>
                         </div>
-           
+
                     </div>
                 </div>
                 <div class="col-lg-4 mt-5">
@@ -495,22 +516,40 @@
                                         <td class="fSTotalAmt">Rs.1399</td>
                                     </tr>
                                     <tr>
+                                        <td>Offer</td>
+                                        <td class="fSTotalAmt">Rs.399</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Promo Disscount</td>
+                                        <td class="fSTotalAmt">Rs.200</td>
+                                    </tr>
+                                    <tr>
                                         <td>Shipping and Handling</td>
                                         <td class="shippingTotal">Rs.0</td>
                                     </tr>
                                     <tr>
                                         <td>Order Total</td>
-                                        <td class="fTotalAmt">Rs.1399</td>
+                                        <td class="fTotalAmt">Rs.800</td>
                                     </tr>
                                 </tbody>
                             </table>
+
+
+                            <div class="input-group mt-2 w-20">
+                                <input type="text" class="form-control coupon" name="" placeholder="Coupon code"
+                                    value="ABCD20">
+                                <span class="input-group-append">
+                                    <button class="btn btn-dark btn-apply coupon">Apply</button>
+                                </span>
+                            </div>
+
                         </div>
                     </div>
                     <div class="checkout-action">
-                       
-<div class="game-buy">
-    <a href="pre-own/XBOX-One/245/TITANFALL-2" class="fag-btn-outline btn">Proceed to checkout</a>
-</div>
+
+                        <div class="game-buy">
+                            <a href="pre-own/XBOX-One/245/TITANFALL-2" class="fag-btn-outline btn">Continue</a>
+                        </div>
 
                     </div>
                 </div>
